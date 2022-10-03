@@ -1,11 +1,11 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Notebooks con Markdown MyST &#8212; My sample book</title>
+    <title>Capítulo 2. Voltaje, Corriente y Potencia de corriente alterna &#8212; Análisis del libro de James L. Kirtley &#34;Principios de potencia eléctrica&#34;</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -41,6 +41,7 @@
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
+    <script src="_static/translations.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
@@ -49,12 +50,14 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Aquí está mi título de ejemplo" href="mymarkdownfile.html" />
-    <link rel="prev" title="Contenido con notebooks" href="notebooks.html" />
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Capítulo3. Lineas de Transmisión" href="Capitulo3_LineasDeTransmision.html" />
+    <link rel="prev" title="Capítulo 1. Sistemas de Potencia Electrica" href="Capitulo1_SistemasDePotenciaElectrica.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="None">
+    <meta name="docsearch:language" content="es">
     
 
     <!-- Google Analytics -->
@@ -93,10 +96,10 @@ const thebe_selector_output = ".output, .cell_output"
         
       
       
-      <img src="_static/logo.png" class="logo" alt="logo">
+      <img src="_static/portada.jpg" class="logo" alt="logo">
       
       
-      <h1 class="site-logo" id="site-title">My sample book</h1>
+      <h1 class="site-logo" id="site-title">Análisis del libro de James L. Kirtley "Principios de potencia eléctrica"</h1>
       
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
@@ -108,29 +111,29 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="intro.html">
-                    Bienvenido a su Jupyter Book
+                    Principios de potencia eléctrica
                 </a>
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="markdown.html">
-   Archivos Markdown
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="notebooks.html">
-   Contenido con notebooks
+  <a class="reference internal" href="Capitulo1_SistemasDePotenciaElectrica.html">
+   Capítulo 1. Sistemas de Potencia Electrica
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Notebooks con Markdown MyST
+   Capítulo 2. Voltaje, Corriente y Potencia de corriente alterna
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="mymarkdownfile.html">
-   Aquí está mi título de ejemplo
+  <a class="reference internal" href="Capitulo3_LineasDeTransmision.html">
+   Capítulo3. Lineas de Transmisión
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Capitulo4_SistemasPolifasicos.html">
+   Capítulo 4. Sistemas polifásicos
   </a>
  </li>
 </ul>
@@ -192,7 +195,7 @@ title="Toggle navigation"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/markdown-notebooks.md"
+        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/Capitulo2_VoltajeCorrientePotenciaAc.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -252,7 +255,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fmarkdown-notebooks.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FCapitulo2_VoltajeCorrientePotenciaAc.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -280,24 +283,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/markdown-notebooks.ipynb"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download notebook file"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-code"></i>
-  </span>
-<span class="headerbtn__text-container">.ipynb</span>
-</a>
-
-      </li>
-      
-      <li>
-        <a href="_sources/markdown-notebooks.md"
+        <a href="_sources/Capitulo2_VoltajeCorrientePotenciaAc.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -308,7 +294,7 @@ title="Download source file"
 <span class="headerbtn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.md</span>
+<span class="headerbtn__text-container">.ipynb</span>
 </a>
 
       </li>
@@ -357,19 +343,31 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#una-celda-de-ejemplo">
-   Una celda de ejemplo
+  <a class="reference internal nav-link" href="#fuentes-y-potencia">
+   2.1. Fuentes y potencia
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#create-a-notebook-with-myst-markdown">
-   Create a notebook with MyST Markdown
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#quickly-add-yaml-metadata-for-myst-notebooks">
-   Quickly add YAML metadata for MyST Notebooks
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#fuentes-de-voltaje-y-corriente">
+     2.1.1. Fuentes de voltaje y corriente
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#potencia">
+     2.1.2. Potencia
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sinosoidales-en-estado-estacionario">
+     2.1.3. Sinosoidales en Estado Estacionario
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#notacion-de-fasor">
+     2.1.4 Notación de fasor
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -380,7 +378,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Notebooks con Markdown MyST</h1>
+                <h1>Capítulo 2. Voltaje, Corriente y Potencia de corriente alterna</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -391,19 +389,31 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#una-celda-de-ejemplo">
-   Una celda de ejemplo
+  <a class="reference internal nav-link" href="#fuentes-y-potencia">
+   2.1. Fuentes y potencia
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#create-a-notebook-with-myst-markdown">
-   Create a notebook with MyST Markdown
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#quickly-add-yaml-metadata-for-myst-notebooks">
-   Quickly add YAML metadata for MyST Notebooks
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#fuentes-de-voltaje-y-corriente">
+     2.1.1. Fuentes de voltaje y corriente
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#potencia">
+     2.1.2. Potencia
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sinosoidales-en-estado-estacionario">
+     2.1.3. Sinosoidales en Estado Estacionario
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#notacion-de-fasor">
+     2.1.4 Notación de fasor
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -415,49 +425,58 @@ title="Print to PDF"
                 
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="notebooks-con-markdown-myst">
-<h1>Notebooks con Markdown MyST<a class="headerlink" href="#notebooks-con-markdown-myst" title="Permalink to this headline">#</a></h1>
-<p>Jupyter Book also lets you write text-based notebooks using MyST Markdown.
-See <a class="reference external" href="https://jupyterbook.org/file-types/myst-notebooks.html">the Notebooks with MyST Markdown documentation</a> for more detailed instructions.
-This page shows off a notebook written in MyST Markdown.</p>
-<div class="section" id="una-celda-de-ejemplo">
-<h2>Una celda de ejemplo<a class="headerlink" href="#una-celda-de-ejemplo" title="Permalink to this headline">#</a></h2>
-<p>With MyST Markdown, you can define code cells with a directive like so:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
-</pre></div>
+  <div class="tex2jax_ignore mathjax_ignore section" id="capitulo-2-voltaje-corriente-y-potencia-de-corriente-alterna">
+<h1>Capítulo 2. Voltaje, Corriente y Potencia de corriente alterna<a class="headerlink" href="#capitulo-2-voltaje-corriente-y-potencia-de-corriente-alterna" title="Enlazar permanentemente con este título">#</a></h1>
+<p>El Voltaje también es llamado «fuerza electromotriz», indicando que es la presión que fuerza a los electrones a moverse. La corriente es el flujo de electrones.
+Se han desarrollado métodos robustos y fáciles de usar para manejar las cantidades senosoidales.</p>
+<div class="section" id="fuentes-y-potencia">
+<h2>2.1. Fuentes y potencia<a class="headerlink" href="#fuentes-y-potencia" title="Enlazar permanentemente con este título">#</a></h2>
+<div class="section" id="fuentes-de-voltaje-y-corriente">
+<h3>2.1.1. Fuentes de voltaje y corriente<a class="headerlink" href="#fuentes-de-voltaje-y-corriente" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Se asume una fuente ideal de voltaje constante, como la red eléctrica pública y una fuente de corriente ideal como una planta fotovoltaica, conectadas en paralelo, como se muestra en la <a class="reference internal" href="#fuentes-voltaje-corriente-ref"><span class="std std-numref">Figura 1</span></a>.</p>
+<div class="figure align-default" id="fuentes-voltaje-corriente-ref">
+<a class="bg-primary mb-1 reference internal image-reference" href="_images/fuentesVoltajeCorriente.jpg"><img alt="fuentesVoltajeCorriente" class="bg-primary mb-1" src="_images/fuentesVoltajeCorriente.jpg" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-number">Figura 1 </span><span class="caption-text">Fuentes de Voltaje y de Corriente.</span><a class="headerlink" href="#fuentes-voltaje-corriente-ref" title="Enlace permanente a esta imagen">#</a></p>
 </div>
+<p>Si ambas fuentes de voltaje y de corriente, son ondas sinosoidales con la misma frecuencia, ellas pueden ser representadas como se muestra en la Ecuación <a class="reference internal" href="#equation-voltaje-coseno-ref">(1)</a> y en la Ecuación <a class="reference internal" href="#equation-corriente-coseno-ref">(2)</a>:</p>
+<div class="math notranslate nohighlight" id="equation-voltaje-coseno-ref">
+<span class="eqno">(1)<a class="headerlink" href="#equation-voltaje-coseno-ref" title="Enlace permanente a esta ecuación">#</a></span>\[v = V \cos \omega t\]</div>
+<div class="math notranslate nohighlight" id="equation-corriente-coseno-ref">
+<span class="eqno">(2)<a class="headerlink" href="#equation-corriente-coseno-ref" title="Enlace permanente a esta ecuación">#</a></span>\[i = I \cos (\omega t - \psi)\]</div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>4
-</pre></div>
+<div class="section" id="potencia">
+<h3>2.1.2. Potencia<a class="headerlink" href="#potencia" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Note que las leyes de voltaje y de corriente de Kirchhoff (KVL y KIL), cuando se aplican aquí, especifican que el voltaje a través de la fuente de corriente y la corriente a través de la fuente de voltaje son espeficadas cada una por la otra fuente. Así que la potencia por fuera de la fuente de corriente es también la potencia dentro de la fuente de voltaje. Si el ángulo <span class="math notranslate nohighlight">\(\psi\)</span> es pequeño de forma que el voltaje y la corriente estén muy cerca de estar en fase, la dirección del flujo de potencia fluye de la guente de corriente a la fuente de voltaje. El flujo de potencia será el mostrado en la Ecuación <a class="reference internal" href="#equation-potencia-coseno-ref">(3)</a>:</p>
+<div class="math notranslate nohighlight" id="equation-potencia-coseno-ref">
+<span class="eqno">(3)<a class="headerlink" href="#equation-potencia-coseno-ref" title="Enlace permanente a esta ecuación">#</a></span>\[p = vi = VI \cos wt  \cos (\omega t - \psi)\]</div>
+<p>Ya que <span class="math notranslate nohighlight">\(\cos a \cos b = \frac 1 2 \cos (a - b) + \frac 1 2 \cos (a + b) \)</span>, entonces el flujo de potencia es el mostrado en la Ecuación <a class="reference internal" href="#equation-potencia-promedio-ref">(4)</a>.</p>
+<div class="math notranslate nohighlight" id="equation-potencia-promedio-ref">
+<span class="eqno">(4)<a class="headerlink" href="#equation-potencia-promedio-ref" title="Enlace permanente a esta ecuación">#</a></span>\[p = \frac {VI} 2 [\cos\psi + \cos(2 \omega t + \psi)]\]</div>
+<p>El flujo de potencia puede ser fácilmente visto como teniendo un valor promedio: <span class="math notranslate nohighlight">\(\cos\psi\)</span> es cual es llamado el <strong>factor de potencia</strong>, y una variación con dos veces la frecuencia de línea.</p>
+<p>Es posible manejar las ondas sinosoidales de una manera directa usando la notación compleja.</p>
 </div>
+<div class="section" id="sinosoidales-en-estado-estacionario">
+<h3>2.1.3. Sinosoidales en Estado Estacionario<a class="headerlink" href="#sinosoidales-en-estado-estacionario" title="Enlazar permanentemente con este título">#</a></h3>
+<p>La clave para entender los sistemas sinosoidales en estados estacionarios es la relación de Euler:</p>
+<p><span class="math notranslate nohighlight">\( e^{jx}  = \cos x + j \sin x\)</span></p>
+<p>Donde e es la base para los logaritmos comunes o neperianos, que es aproximadamente 2,718.</p>
+<p>De lo anterior viene:</p>
+<p><span class="math notranslate nohighlight">\( e^{jwt}  = \cos wt + j \sin wt\)</span></p>
+<p>Y,</p>
+<p><span class="math notranslate nohighlight">\(Re \{e^{jwt}\} = \cos wt\)</span></p>
+<p>Si un voltaje es una onda sinusoidal pura (es decir, sin componentes de CC ni transitorios), se puede describir como:</p>
+<p><span class="math notranslate nohighlight">\(v(t) = V \cos(\omega t + \phi) = Re \{ V e^{j \phi}  e^{j \omega t} \}\)</span></p>
+<p>Un fasor se puede representar por:</p>
+<p><span class="math notranslate nohighlight">\(\mathbf{V} = V e^{j \phi} \)</span></p>
 </div>
+<div class="section" id="notacion-de-fasor">
+<h3>2.1.4 Notación de fasor<a class="headerlink" href="#notacion-de-fasor" title="Enlazar permanentemente con este título">#</a></h3>
+<p>Este voltaje sinusoidal se puede representar gráficamente como se muestra en la <a class="reference internal" href="#fasor-voltaje-ref"><span class="std std-numref">Figura 2</span></a>. La magnitud de este “fasor”, V, es la longitud del vector, mientras que el ángulo de fase ϕ está representado por una rotación del vector alrededor de su origen. El valor instantáneo de la tensión es igual a la proyección sobre el eje horizontal de la punta de un vector que gira con velocidad angular ω que se encuentra en la posición del fasor de tensión en el instante t = 0.</p>
+<div class="figure align-default" id="fasor-voltaje-ref">
+<a class="reference internal image-reference" href="_images/fasor_voltaje.jpg"><img alt="_images/fasor_voltaje.jpg" src="_images/fasor_voltaje.jpg" style="height: 150px;" /></a>
+<p class="caption"><span class="caption-number">Figura 2 </span><span class="caption-text">Fasor de voltaje.</span><a class="headerlink" href="#fasor-voltaje-ref" title="Enlace permanente a esta imagen">#</a></p>
 </div>
-<p>When your book is built, the contents of any <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Jupyter Book uses <a class="reference external" href="https://jupytext.readthedocs.io/en/latest/">Jupytext</a> to convert text-based files to notebooks, and can support <a class="reference external" href="https://jupyterbook.org/file-types/jupytext.html">many other text-based notebook files</a>.</p>
-</div>
-</div>
-<div class="section" id="create-a-notebook-with-myst-markdown">
-<h2>Create a notebook with MyST Markdown<a class="headerlink" href="#create-a-notebook-with-myst-markdown" title="Permalink to this headline">#</a></h2>
-<p>MyST Markdown notebooks are defined by two things:</p>
-<ol class="simple">
-<li><p>YAML metadata that is needed to understand if / how it should convert text files to notebooks (including information about the kernel needed).
-See the YAML at the top of this page for example.</p></li>
-<li><p>The presence of <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> directives, which will be executed with your book.</p></li>
-</ol>
-<p>That’s all that is needed to get started!</p>
-</div>
-<div class="section" id="quickly-add-yaml-metadata-for-myst-notebooks">
-<h2>Quickly add YAML metadata for MyST Notebooks<a class="headerlink" href="#quickly-add-yaml-metadata-for-myst-notebooks" title="Permalink to this headline">#</a></h2>
-<p>If you have a markdown file and you’d like to quickly add YAML metadata to it, so that Jupyter Book will treat it as a MyST Markdown Notebook, run the following command:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jupyter</span><span class="o">-</span><span class="n">book</span> <span class="n">myst</span> <span class="n">init</span> <span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">markdownfile</span><span class="o">.</span><span class="n">md</span>
-</pre></div>
+<p>Esta es una prueba de la construcción del libro en Español.</p>
 </div>
 </div>
 </div>
@@ -489,17 +508,17 @@ See the YAML at the top of this page for example.</p></li>
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="notebooks.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="Capitulo1_SistemasDePotenciaElectrica.html" title="anterior página">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Contenido con notebooks</p>
+            <p class="prev-next-subtitle">anterior</p>
+            <p class="prev-next-title">Capítulo 1. Sistemas de Potencia Electrica</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="mymarkdownfile.html" title="next page">
+    <a class='right-next' id="next-link" href="Capitulo3_LineasDeTransmision.html" title="siguiente página">
     <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Aquí está mi título de ejemplo</p>
+        <p class="prev-next-subtitle">siguiente</p>
+        <p class="prev-next-title">Capítulo3. Lineas de Transmisión</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
@@ -510,7 +529,7 @@ See the YAML at the top of this page for example.</p></li>
     <div class="footer-content row">
         <footer class="col footer"><p>
   
-    By The Jupyter Book Community<br/>
+    By Eric Jesús Dávila<br/>
   
       &copy; Copyright 2022.<br/>
 </p>
